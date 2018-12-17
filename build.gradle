@@ -39,5 +39,6 @@ buildscript {
 apply plugin: 'edu.sc.seis.launch4j'
 
 launch4j {
+ outfile = "main.exe"
   mainClassName = 'main.java.SwingDemo'
 }
